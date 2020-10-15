@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Inicio</title>
+		<meta charset='utf-8'>
+		<meta name='viewport', content='width=device-width, maximum-scale=1.0 user-scalable=no'>
+		<link rel='stylesheet' type="text/css" href='diseño/css/style.css' />
+		<link rel='stylesheet' type="text/css" href='diseño/css/style_resp_425.css' />
+		<link rel='stylesheet' type="text/css" href='diseño/css/style_resp_768.css' />
+		<link rel='stylesheet' type="text/css" href='diseño/css/style_resp_1024.css' />
+		<link rel='stylesheet' type="text/css" href='diseño/css/style_resp_1440.css' />
+		<link rel="shortcut icon" type="image/png" href="diseño/icons/flores.png" />
+		<script type="text/javascript" src="diseño/js/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="diseño/js/design_control.js"></script>
+	</head>
+	<body>
+		<section class="toolbar bg_black shadow_flat">
+			<button class="menu_button" id="menu_button" onclick="showMenu( true );">
+				<img src="diseño/icons/menu.png" class="icon v_align_middle" />
+			</button>
+			<div class="toolbar_in">
+				<div class="logo_container font_white v_align_top">
+					<img src="diseño/icons/flores.png" class="icon v_align_middle"/>
+					<p>Temas</p>
+				</div>
+			</div>
+		</section>
+		<article class="menu shadow_flat bg_white" id="menu">
+			<div class="close text_align_right">
+				<button class="text_align_center hover_black" onclick="showMenu( false );">
+					<img src="diseño/icons/close_black.png" class="icon opacity v_align_middle" />
+				</button>
+			</div>
+			<section class="profile_container">
+				<div class="pd_24 text_align_center">
+					<div class="img_container circle margin_auto">
+						<img src="diseño/icons/danny.jpg" />
+					</div>
+					<div class="name mr_top_24">
+						<a href="" class="font_gray">
+							<h3 class="title_smaller">
+								Daniela Ortega
+							</h3>
+						</a>
+					</div>
+				</div>
+			</section>
+		</article>
+		<article class="main_container bg_black">
+			<div class="carousel_indicator">
+				<div class="inner" id="main-carousel-indicator">
+					<i class="point circle indicator"></i>
+					<span class="point circle"></span>
+					<span class="point circle"></span>
+				</div>
+			</div>
+			<section class="sub_container" id="main-carousel">
+				<div class="main_block carousel_element">
+					<div class="img_container">
+						<img src="diseño/icons/perso.png" adjustable />
+					</div>
+					<div class="info_container text_align_right">
+						<div class="center_info font_white">
+							<h1 class="title_big">
+								Perspectiva de Género
+							</h1>
+							<div>
+								<a href="pg.html">
+									<button class="pd_16 border_white font_white mr_top_32 border_radius">
+										<h4 class="font_big font_light">Leer más</h4>
+									</button>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div><div class="main_block carousel_element">
+					<div class="img_container">
+						<img src="diseño/icons/cod.jpg" adjustable />
+					</div>
+					<div class="info_container text_align_right">
+						<div class="center_info font_white">
+							<h1 class="title_big">
+								HTML/CSS
+							</h1>
+							<div>
+								<a href="html_css.html">
+									<button class="pd_16 border_white font_white mr_top_32 border_radius">
+										<h4 class="font_big font_light">Leer más</h4>
+									</button>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</article>
+	</body>
+</html>
